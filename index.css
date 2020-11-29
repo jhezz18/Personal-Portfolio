@@ -54,12 +54,12 @@ html {
 }
 .sidebar-wrapper {
   transition: 0.3s;
-  z-index: 5;
   position: absolute;
   width: 100vw;
   height: 94vh;
 }
 .sidebar {
+  z-index: 5;
   height: 100%;
   width: 0;
   background: #fff;
@@ -163,7 +163,7 @@ html {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background: #ffe4e4;
+  background: #fbbdbd;
 }
 .circle-small {
   position: absolute;
@@ -173,7 +173,7 @@ html {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background: #fffafa;
+  background: #ffdfdf;
 }
 .null {
   height: 100%;
@@ -263,17 +263,22 @@ html {
 }
 .rate1 {
   height: 100%;
-  width: 70%;
+  width: 60%;
   background: #5f3659;
 }
 .rate2 {
   height: 100%;
-  width: 60%;
+  width: 50%;
   background: #5f3659;
 }
 .rate3 {
   height: 100%;
   width: 80%;
+  background: #5f3659;
+}
+.rate4 {
+  height: 100%;
+  width: 40%;
   background: #5f3659;
 }
 .other-name {
