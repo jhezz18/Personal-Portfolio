@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="burger">
+              <button onclick="toogleShow()" id="show"><i class="fa fa-bars" aria-hidden="true"></i></button>
+              <button onclick="toogleClose()" id="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+            </div>
+             <ul class="links">
+                 <li><a href="#home">Home</a></li>
+                 <li><a href="#skills">Skills</a></li>
+                 <li><a href="#about">About me</a></li>
+                 <li><a href="#contact">Contacts</a></li>
+             </ul>
+        </div>
+            <div class="content" >
+                <div class="sidebar-wrapper">
+                    <div class="sidebar">
+                        <ul id="sidebar-content">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href=#about>About me</a></li>
+                            <li><a href=#contact>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="section">
+                    <div class="picture-wrapper"></div>
+    
+                    <div class="circles-section">
+                        <div class="circles">
+                            <div class="circle-big"></div>
+                            <div class="circle-medium"></div>
+                            <div class="circle-small"></div>
+                        </div>
+                    </div>
+                    <div class="self-intro">
+                            <h2 class="self-name">Jessa A. Pasco</h2>
+                            <button class="self-btn">Learn more</button>
+                            <p class="self-details">BS Information System student</p>
+                            <p class="self-details">Knowledgeable maintenance professional with proven skills in troubleshooting. Keeps equipment and systems operating at ideal levels with regular inspections and upkeep.
+                                Maintains organized supplies and tools for all maintenance needs</p>
+                            <p class="self-details">Certificate holder in Receiving and Responding to Workplace Communication from
+                                TESDA.</p>
+                            <p class="self-details">National Certificate II holder in Electrical Installation and Maintenance from TESDA
+                                in the year 2018. </p>
+                    </div>
+                </div>
+                <div class="skills" id="skills">
+                    <h4 class="skills-title">MY SKILLS</h4>
+                    <div class="skills-wrapper">
+                        <h4 class="skills-name">COMPUTER PROGRAMMING</h4>
+                        <div class="skill-category">
+                            <div class="skill-category-name">
+                                <h4 class="skill-name">HTML</h4>
+                                <h4 class="skill-name">CSS</h4>
+                                <h4 class="skill-name">JAVA</h4>
+                            </div>
+                            <div class="skill-category-rate">
+                                <div class="line">  
+                                    <div class="rate1"></div>
+                                </div>
+                                <div class="line">  
+                                    <div class="rate2"></div> 
+                                </div>
+                                <div class="line">  
+                                    <div class="rate3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="skills-name">OTHERS</h4>
+                        <h4 class="other-name">ELECTRICAL TROUBLESHOOTING</h4>
+                        <h4 class="other-name">TIME AND PROJECT MANAGEMENT</h4>
+                        <h4 class="other-name">WORKPLACE ENTHUSIAST</h4>
+                    </div>
+                </div>
+                <div class="about" id="about">
+                    <h4 class="skills-title">DISCOVER</h4>
+                    <h4 class="skills-name">ABOUT ME</h4>
+                    <div class="about-wrapper">
+                        <div class="about-profile"></div>
+                        <div class="about-details">
+                            <h4 class="skills-name">PROFILE</h4>
+                            <h4 class="skill-name">NAME: JESSA  PASCO</h4>
+                            <h4 class="skill-name">AGE:</h4>
+                            <h4 class="skill-name">COURSE: BACHELOR OF SCIENCE IN INFORMATION SYSTEM</h4>
+                            <h4 class="skills-name">EDUCATIONAL BACKGROUND</h4>
+                            <h4 class="skill-name">COLLEGE:  Mindanao State University-Iligan Institute
+                                of Technology</h4>
+                            <h4 class="skill-name">SECONDARY: DNHS-Hindang High School Annex </h4>
+                            <h4 class="skill-name">PRIMARY: Pedro T. Migriño Memorial School </h4>
+                            <button class="cv-btn">Check my CV</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact" id="contact">
+                    <h4 class="skills-title">CONTACTS</h4>
+                    <h4 class="skills-name">FEEL FREE TO REACH ME</h4>
+                    <div class="about-wrapper-contact">
+                        <div class="icon"><i style="color:white" class="fa fa-facebook" aria-hidden="true"></i></div>
+                        <a target="_blank" href="https://www.facebook.com/blackpink.princess.1124">Facebook</a>
+                    </div>
+                    <div class="about-wrapper-contact">
+                        <div class="icon"><i style="color:white" class="fa fa-google" aria-hidden="true"></i></div>
+                        <a target="_blank" href="https://www.google.com/">Google</a>
+                    </div>
+                    <div class="about-wrapper-contact">
+                        <div class="icon"><i style="color:white"  class="fa fa-phone" aria-hidden="true"></i></div>
+                        <p>09********0</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
